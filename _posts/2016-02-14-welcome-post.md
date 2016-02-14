@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post
+title: Welcome post
 cover: cover.jpg
 date:   2016-02-14 11:51:06 +0800
 categories: posts
