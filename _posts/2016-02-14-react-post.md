@@ -138,6 +138,7 @@ gulp.task('browserify', function() {
 });
 ```
 ### reactify
+
 reactify主要是用来转换jsx，通过browserify的transform方法，将jsx语言转换成js
 
 结合gulp,最终gulpfile.js代码如下:
