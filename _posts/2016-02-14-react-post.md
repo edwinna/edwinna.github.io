@@ -51,6 +51,8 @@ express创建项目
 </html>
 ```
 
+***
+
 ### 添加客户端js
 
 添加react依赖
@@ -85,6 +87,8 @@ ReactDOM.render(
 这个时候运行项目，还需要将jsx解析成javascript，官网推荐使用reactify,下面将重点介绍
 gulp和browserfy的完美结合.
 
+***
+
 #### 添加项目依赖的npm包
 在package.json里添加依赖，各个npm插件就不一一介绍，主要介绍下reactify和browserify
 
@@ -103,6 +107,8 @@ gulp和browserfy的完美结合.
 ```
 新建gulpfile.js文件
 
+***
+
 ### browserify
 ![](http://i13.tietuku.com/c0c33791eacc0504.png)
 
@@ -113,6 +119,8 @@ Browserify本身不是模块管理器，它只是能让 Node 模块跑在浏览�
 `$ browserify test.js > bundle.js`
 
 `<script src="bundle.js"></script>`
+
+***
 
 ### 在 Gulp 中使用 Browserify
 browserify有个强大的功能——transform，将各种语言进行预处理，最后打包成bundle.js,例如coffee script、jsx.
@@ -137,6 +145,8 @@ gulp.task('browserify', function() {
     .pipe(gulp.dest('./dist/js')); //目的文件路径
 });
 ```
+
+***
 
 ### reactify
 reactify主要是用来转换jsx，通过browserify的transform方法，将jsx语言转换成js
@@ -183,6 +193,8 @@ package.json文件添加scripts
   "start": "node ./bin/www"
 }
 ```
+
+***
 
 ### 运行项目
 `npm install`
