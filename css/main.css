@@ -294,12 +294,22 @@ a:hover {
 /* nav
 /*
 /*****************************************************************************/
+ul,li{
+  list-style:none;
+}
 .nav{
   margin-top: 1em;
   padding:10px;
+  text-align:center;
 }
 
 .nav-list li{
-  line-height:1.5em;
-  border-bottom:1px dotted #e7e7e7;
+  line-height:30px;
+}
+.nav-list li a{
+  text-decoration:none;
+}
+.nav-list li a:hover{
+  text-decoration:none;
+  color:#ff2465;
 }
