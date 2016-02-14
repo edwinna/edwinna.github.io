@@ -8,7 +8,7 @@ categories: posts
 
 刚开始只是想简单用node和gulp搭建一个react项目，简单介绍下步骤和我遇到的问题
 
-#### 准备工作
+### 准备工作
 这里我用的是express框架搭建node项目
 安装 express应用生成器
 
@@ -51,7 +51,7 @@ express创建项目
 </html>
 ```
 
-#### 添加客户端js
+### 添加客户端js
 
 添加react依赖
 
@@ -103,7 +103,7 @@ gulp和browserfy的完美结合.
 ```
 新建gulpfile.js文件
 
-##### browserify
+### browserify
 ![](http://i13.tietuku.com/c0c33791eacc0504.png)
 
 最早也是最有名的前端模块管理器，众所周知，非RequireJS莫属。Require.js的问题在于各种参数设置过于繁琐，不容易学习，很难完全掌握。而且，实际应用中，往往还需要在服务器端，将所有模块合并后，再统一加载，这多出了很多工作量。browserify的出现很好的弥补了requireJs这一缺陷。
@@ -114,10 +114,11 @@ Browserify本身不是模块管理器，它只是能让 Node 模块跑在浏览�
 
 `<script src="bundle.js"></script>`
 
-##### 在 Gulp 中使用 Browserify
+### 在 Gulp 中使用 Browserify
 browserify有个强大的功能——transform，将各种语言进行预处理，最后打包成bundle.js,例如coffee script、jsx.
 
 看代码说事 gulpfile.js
+
 ```javascript
 var browserify = require('browserify');  
 var gulp = require('gulp');  
@@ -135,9 +136,8 @@ gulp.task('browserify', function() {
     .pipe(uglify()) //压缩处理
     .pipe(gulp.dest('./dist/js')); //目的文件路径
 });
-
 ```
-#### reactify
+### reactify
 reactify主要是用来转换jsx，通过browserify的transform方法，将jsx语言转换成js
 
 结合gulp,最终gulpfile.js代码如下:
@@ -181,7 +181,7 @@ package.json文件添加scripts
   "start": "node ./bin/www"
 }
 ```
-#### 运行项目
+### 运行项目
 `npm install`
 `npm start`
 打开浏览器访问[http://localhost:3000/](http://localhost:3000/)
