@@ -6,10 +6,17 @@ date:   2016-02-14 11:51:06 +0800
 categories: posts
 ---
 
-## Introducing Flex, a Jekyll theme
+## welcome to Ting Blog
 
-Flex is a minimalist, responsive theme based on the website, [The Development](http://thedevelopment.co).
+一个有点儿意思的前端小驿站
 
-## Open Sourced on GitHub
+想入非非的漫天念想  碎碎念模式的工作感悟
 
-Flex is open sourced on GitHub and is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to contribute to it anytime!
+还和摄影有关的 画册
+
+码代码的不一定是骑白马的 有可能是长发飘飘的
+
+菇凉
+
+不妨来Ting Blog 
+
