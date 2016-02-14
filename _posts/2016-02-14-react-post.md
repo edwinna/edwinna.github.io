@@ -137,8 +137,8 @@ gulp.task('browserify', function() {
     .pipe(gulp.dest('./dist/js')); //目的文件路径
 });
 ```
-### reactify
 
+### reactify
 reactify主要是用来转换jsx，通过browserify的transform方法，将jsx语言转换成js
 
 结合gulp,最终gulpfile.js代码如下:
@@ -175,6 +175,7 @@ gulp.task('jsx', function(){
 `<script src="../public/build/bundle.js"></script>`
 
 package.json文件添加scripts
+
 ```
 "scripts": {
   "prestart": "npm run-script build",
@@ -182,6 +183,7 @@ package.json文件添加scripts
   "start": "node ./bin/www"
 }
 ```
+
 ### 运行项目
 `npm install`
 `npm start`
