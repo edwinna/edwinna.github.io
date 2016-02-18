@@ -33,7 +33,7 @@ categories: posts
 通过创建一个导航菜单来了解如何在React中处理点击事件
 代码如下：
 
-![](http://i11.tietuku.com/fa01aec1c1c8b1e5.png)
+![](http://i13.tietuku.com/0caeab8fdcc49ddd.png)
 
 [详细代码请点击](http://codepen.io/edwinna/pen/WrWRQP)
 
@@ -44,8 +44,8 @@ categories: posts
 人们都讨厌等待，这里是应用React来构建一个实时搜索实验。
 代码如下：
 
-![](http://i11.tietuku.com/237007abc52d8c4b.png)
-![](http://i11.tietuku.com/49d4334122dcb381.png)
+![](http://i13.tietuku.com/11d68ed8f59a4bed.png)
+![](http://i13.tietuku.com/550247d169446e86.png)
 这个实例表明了React另一个重要的概念-更新控制层的不像我们想象中的不会影响到HTML。在这个实例中，忽略掉用户的输入，一旦你设置了文本框的值，文本框会保持不变，除非你通过onChange方法来更新文本框的值。
 
 [详细代码请点击](http://codepen.io/edwinna/pen/zrXwKb)
@@ -55,8 +55,8 @@ categories: posts
 
 React真正强大的地方在于结合多个组件。React通过引入分离关注点来优雅地组织代码，从而实现代码在不同web程序上的复用。如下是订单表单的实例，用以帮助用户规划预算。代码如下：
 
-![](http://i13.tietuku.com/e1df533f2d58424c.png)
-![](http://i13.tietuku.com/e0cc6f861c43b6b0.png)
+![](http://i13.tietuku.com/d4cd94caca8ec8f5.png)
+![](http://i13.tietuku.com/6aae7134dcbd79f7.png)
 
 当多个组件结合时，问题产生了，如何让多个组件通讯。一种方式是在组件初始化的时候把传递的数据写在属性上。这仅在父子组件中传递数据有效。在其他非父子关系的组件通讯中，你可以将父组件上的方法传递给子组件，作为子组件的属性。子组件自身可以调用该方法，并且激活父级上的事件。[点击阅读更多](http://facebook.github.io/react/tips/communicate-between-components.html)
 
