@@ -1,3 +1,11 @@
+---
+layout: post
+title: 学习React框架实例
+cover: cover.jpg
+date:   2016-02-14 15:51:06 +0800
+categories: posts
+---
+
 ## React有什么特别之处？
 不像Angular和Ember，使用双向绑定的方式去更新页面HTML，React的核心是组件。在我看来，React比Angular和Ember还要容易上手。它体积更小，和jquery还有其他框架能完美结合。它也非常快捷，因为它使用的是虚拟DOM，仅当页面改变时同步变化（众所周知，访问DOM是web app开发环节最影响效率的一环，因此很有必要提升这一方面的性能）
 
