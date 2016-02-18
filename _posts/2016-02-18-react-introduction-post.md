@@ -2,7 +2,7 @@
 layout: post
 title: 学习React框架实例
 cover: cover.jpg
-date:   2016-02-18 16:51:06 +0800
+date:   2016-02-18 16:40:06 +0800
 categories: posts
 ---
 
@@ -16,11 +16,11 @@ categories: posts
 `<script src="http://fb.me/react-0.10.0.min.js"></script>`
 
 你可以访问全局的React对象，它提供了许多有用的方法，具体看如下的实例。写React web app的推荐写法是使用一种叫JSX的语法。JSX是一种改进版的javascript，允许用HTML形式的语法直接写React组件。它需要编译成javascript才能被浏览器解释。JSX是首选-你也选择可以用常规的javascript。
-废话少说，上实例代码
+废话少说，上实例代码。
 
 ### 定时器
 
- 正如我所提到的，react app是由组件构成。创建组件是通过 React.createClass()方法。每个组件都有状态（数据对象），通过render()方法完成自身的渲染，每当状态改变，render()方法都会被调用一次。如下是开发一个简单的定时器：
+正如我所提到的，react app是由组件构成。创建组件是通过 React.createClass()方法。每个组件都有状态（数据对象），通过render()方法完成自身的渲染，每当状态改变，render()方法都会被调用一次。如下是开发一个简单的定时器：
 
 ![](http://i11.tietuku.com/e7f89e8ba241394d.png)
 
@@ -46,6 +46,7 @@ categories: posts
 
 ![](http://i13.tietuku.com/11d68ed8f59a4bed.png)
 ![](http://i13.tietuku.com/550247d169446e86.png)
+
 这个实例表明了React另一个重要的概念-更新控制层的不像我们想象中的不会影响到HTML。在这个实例中，忽略掉用户的输入，一旦你设置了文本框的值，文本框会保持不变，除非你通过onChange方法来更新文本框的值。
 
 [详细代码请点击](http://codepen.io/edwinna/pen/zrXwKb)
