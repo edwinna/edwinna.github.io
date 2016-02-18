@@ -6,8 +6,6 @@ date:   2016-02-14 11:51:06 +0800
 categories: posts
 ---
 
-## welcome to Ting Blog
-
 一个有点儿意思的前端小驿站
 
 想入非非的漫天念想  碎碎念模式的工作感悟
