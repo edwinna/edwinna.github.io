@@ -2,7 +2,7 @@
 layout: post
 title: 学习React框架实例
 cover: cover.jpg
-date:   2016-02-14 15:51:06 +0800
+date:   2016-02-18 16:51:06 +0800
 categories: posts
 ---
 
@@ -15,7 +15,7 @@ categories: posts
 要使用React, 你需要在你的页面包含一个单独的javascript文件。Facebook友好地提供了可以直接访问的CDN
 `<script src="http://fb.me/react-0.10.0.min.js"></script>`
 
-你可以访问全局的React对象，它提供了许多有用的方法，具体看如下的实例。写React web app的推荐写法是使用一种将JSX的语法。JSX是一种改进版的javascript，允许用HTML形式的语法直接写React组件。它需要编译成javascript才能被浏览器解释。JSX是首选-你也选择可以用常规的javascript。
+你可以访问全局的React对象，它提供了许多有用的方法，具体看如下的实例。写React web app的推荐写法是使用一种叫JSX的语法。JSX是一种改进版的javascript，允许用HTML形式的语法直接写React组件。它需要编译成javascript才能被浏览器解释。JSX是首选-你也选择可以用常规的javascript。
 废话少说，上实例代码
 
 ### 定时器
@@ -32,6 +32,7 @@ categories: posts
 
 通过创建一个导航菜单来了解如何在React中处理点击事件
 代码如下：
+
 ![](http://i11.tietuku.com/fa01aec1c1c8b1e5.png)
 
 [详细代码请点击](http://codepen.io/edwinna/pen/WrWRQP)
@@ -42,6 +43,7 @@ categories: posts
 
 人们都讨厌等待，这里是应用React来构建一个实时搜索实验。
 代码如下：
+
 ![](http://i11.tietuku.com/237007abc52d8c4b.png)
 ![](http://i11.tietuku.com/49d4334122dcb381.png)
 这个实例表明了React另一个重要的概念-更新控制层的不像我们想象中的不会影响到HTML。在这个实例中，忽略掉用户的输入，一旦你设置了文本框的值，文本框会保持不变，除非你通过onChange方法来更新文本框的值。
@@ -52,6 +54,7 @@ categories: posts
 ### 订单表单
 
 React真正强大的地方在于结合多个组件。React通过引入分离关注点来优雅地组织代码，从而实现代码在不同web程序上的复用。如下是订单表单的实例，用以帮助用户规划预算。代码如下：
+
 ![](http://i13.tietuku.com/e1df533f2d58424c.png)
 ![](http://i13.tietuku.com/e0cc6f861c43b6b0.png)
 
