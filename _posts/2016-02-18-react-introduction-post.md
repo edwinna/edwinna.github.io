@@ -10,16 +10,17 @@
 你可以访问全局的React对象，它提供了许多有用的方法，具体看如下的实例。写React web app的推荐写法是使用一种将JSX的语法。JSX是一种改进版的javascript，允许用HTML形式的语法直接写React组件。它需要编译成javascript才能被浏览器解释。JSX是首选-你也选择可以用常规的javascript。
 废话少说，上实例代码
 
-1. 定时器
+### 定时器
 
  正如我所提到的，react app是由组件构成。创建组件是通过 React.createClass()方法。每个组件都有状态（数据对象），通过render()方法完成自身的渲染，每当状态改变，render()方法都会被调用一次。如下是开发一个简单的定时器：
+
 ![](http://i11.tietuku.com/e7f89e8ba241394d.png)
 
-[详细代码请点击] (http://codepen.io/edwinna/pen/BjEQpd)
+[详细代码请点击](http://codepen.io/edwinna/pen/BjEQpd)
 
 当创建组件时你可以通过{}包含任意js表达式，以上实例中，我们传递了一个开始时间，每次tick()方法被调用时通过start来计算经过的时间。
 
-2. 导航菜单
+### 导航菜单
 
 通过创建一个导航菜单来了解如何在React中处理点击事件
 代码如下：
@@ -29,7 +30,7 @@
 
 [点击阅读更多](http://facebook.github.io/react/docs/jsx-in-depth.html)
 
-3. 实时查询
+### 实时查询
 
 人们都讨厌等待，这里是应用React来构建一个实时搜索实验。
 代码如下：
@@ -40,7 +41,7 @@
 [详细代码请点击](http://codepen.io/edwinna/pen/zrXwKb)
 
 
-4. 订单表单
+### 订单表单
 
 React真正强大的地方在于结合多个组件。React通过引入分离关注点来优雅地组织代码，从而实现代码在不同web程序上的复用。如下是订单表单的实例，用以帮助用户规划预算。代码如下：
 ![](http://i13.tietuku.com/e1df533f2d58424c.png)
