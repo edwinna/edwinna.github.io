@@ -3,7 +3,7 @@ layout: post
 title: 结合gulp和browserify和node构建react项目
 cover: cover.jpg
 date:   2016-02-14 15:51:06 +0800
-categories: posts
+categories: js
 ---
 
 刚开始只是想简单用node和gulp搭建一个react项目，简单介绍下步骤和我遇到的问题
