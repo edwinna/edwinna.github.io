@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'Ting听'
+title: 'Ting说'
 permalink: /life/
 ---
 <section id="archive">
