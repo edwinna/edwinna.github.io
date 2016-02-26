@@ -4,7 +4,6 @@ title: 学习React框架实例
 cover: cover.jpg
 date:   2016-02-18 16:40:06 +0800
 categories: js
-permalink: /js/
 
 ---
 
