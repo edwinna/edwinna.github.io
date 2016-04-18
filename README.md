@@ -1,2 +1,2 @@
 # edwinna.github.io
-# a jekyll bog
+# a hexo bog
