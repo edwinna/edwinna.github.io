@@ -68,4 +68,12 @@ theme: hexo-theme-yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: edwinna/edwinna.github.io
+  branch: master
+
+#avatar url
+avatar: https://avatars3.githubusercontent.com/u/5242546?v=3&s=460
+
+friends: false
+aboutme: 做一个有意思的人…
